@@ -1,0 +1,132 @@
+* {
+  cursor: default;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 240, 240);
+}
+body {
+  content: "";
+  background: url(pictures/background.png);
+  font-family: "Amatic SC", cursive;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  background: red;
+  height: 80px;
+  padding: 0px 20px;
+}
+.menu > div {
+  padding: 0px 20px;
+}
+.menu div a {
+  text-decoration: none;
+  font-size: 26px;
+  color: rgb(255, 240, 240);
+}
+#book {
+  margin-right: auto;
+}
+.menu div:nth-of-type(4) a {
+  color: rgb(63, 63, 63);
+}
+.menu > div > a:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
+  background: rgb(255, 249, 249);
+}
+main > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+main .books {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+main article:last-of-type {
+  padding-bottom: 30px;
+}
+main article h2,
+main article a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+main .books .book {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 20px;
+}
+
+main .books .book div:first-of-type {
+  padding: 10px 0;
+}
+main .books .book div {
+  padding-bottom: 10px;
+}
+main .books .book div:last-of-type a {
+  font-size: 25px;
+}
+form {
+  text-align: start;
+  width: 100%;
+  padding: 40px;
+}
+form p {
+  padding-top: 10px;
+}
+form p textarea {
+  font-family: "Amatic SC", cursive;
+  color: red;
+  border: 2px solid red;
+  font-size: 25px;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px rgba(104, 104, 104, 0.61);
+}
+form p input {
+  font-family: "Amatic SC", cursive;
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  width: 100px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 80px;
+  background: rgb(88, 88, 88);
+}
+footer p {
+  font-size: 30px;
+}
