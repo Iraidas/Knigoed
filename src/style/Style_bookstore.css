@@ -6,7 +6,7 @@
 }
 body {
   content: "";
-  background: url(/src/pictures/background.png);
+  background: url("../../src/pictures/background.png");
   font-family: "Amatic SC", cursive;
 }
 header {
@@ -49,7 +49,7 @@ header {
   text-align: center;
   justify-content: center;
   content: "";
-  background: url(pictures/transparent.png);
+  background: url('../../src/pictures/transparent.png');
   padding: 50px 10px 30px;
   font-size: 40px;
 }
