@@ -1,7 +1,7 @@
-# Mini project of a static multi-page site "Knigoed" without adaptive not cross-browser
+# Мини проект статического многостраничного сайта "Книгоед", без адаптива и кросс-браузерности
 
-### The project was created for an exam in an educational institution.
+### Учебный проект
 
-### Used technology stack:
+### Используемые технологии:
 - HTML
 - CSS
